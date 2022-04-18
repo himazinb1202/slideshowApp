@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		72D9D60C27F644F100C30475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D9D60B27F644F100C30475 /* AppDelegate.swift */; };
 		72D9D60E27F644F100C30475 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D9D60D27F644F100C30475 /* SceneDelegate.swift */; };
-		72D9D61027F644F100C30475 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D9D60F27F644F100C30475 /* ViewController.swift */; };
 		72D9D61327F644F100C30475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D9D61127F644F100C30475 /* Main.storyboard */; };
 		72D9D61527F644F300C30475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D9D61427F644F300C30475 /* Assets.xcassets */; };
 		72D9D61827F644F300C30475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D9D61627F644F300C30475 /* LaunchScreen.storyboard */; };
+		72D9D62027FB11A400C30475 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D9D61F27FB11A400C30475 /* ViewController.swift */; };
+		72D9D62227FB11E800C30475 /* BigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D9D62127FB11E700C30475 /* BigViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72D9D60827F644F100C30475 /* slideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D9D60B27F644F100C30475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72D9D60D27F644F100C30475 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72D9D60F27F644F100C30475 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72D9D61227F644F100C30475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72D9D61427F644F300C30475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72D9D61727F644F300C30475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72D9D61927F644F300C30475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D9D61F27FB11A400C30475 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72D9D62127FB11E700C30475 /* BigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				72D9D60B27F644F100C30475 /* AppDelegate.swift */,
 				72D9D60D27F644F100C30475 /* SceneDelegate.swift */,
-				72D9D60F27F644F100C30475 /* ViewController.swift */,
+				72D9D61F27FB11A400C30475 /* ViewController.swift */,
+				72D9D62127FB11E700C30475 /* BigViewController.swift */,
 				72D9D61127F644F100C30475 /* Main.storyboard */,
 				72D9D61427F644F300C30475 /* Assets.xcassets */,
 				72D9D61627F644F300C30475 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D9D61027F644F100C30475 /* ViewController.swift in Sources */,
+				72D9D62027FB11A400C30475 /* ViewController.swift in Sources */,
 				72D9D60C27F644F100C30475 /* AppDelegate.swift in Sources */,
 				72D9D60E27F644F100C30475 /* SceneDelegate.swift in Sources */,
+				72D9D62227FB11E800C30475 /* BigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
