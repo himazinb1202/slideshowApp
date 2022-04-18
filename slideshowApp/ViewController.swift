@@ -27,6 +27,17 @@ class ViewController: UIViewController {
         let secondViewController = self.storyboard?.instantiateViewController(withIdentifier: "BigViewController") as! BigViewController
         //遷移前に画像を渡す処理
         secondViewController.outputValue = ImageView.image
+        if self.timer != nil {
+            
+        self.timer?.invalidate()
+        self.timer = nil
+        }
+        //文字変更
+        StartStop1.setTitle("再生", for: .normal)
+        //その他ボタンを活性化
+        Susumu1.isEnabled = true
+        Modoru1.isEnabled = true
+        
         //遷移
         self.present(secondViewController, animated: true, completion: nil)
                 
@@ -85,7 +96,7 @@ class ViewController: UIViewController {
                     Susumu1.isEnabled = false
                     Modoru1.isEnabled = false
                     
-                } else if self.timer != nil{
+                }else{
                     self.timer?.invalidate()
                     self.timer = nil
                     //文字変更
@@ -94,6 +105,7 @@ class ViewController: UIViewController {
                     Susumu1.isEnabled = true
                     Modoru1.isEnabled = true
                 }
+    
         
                     
 
