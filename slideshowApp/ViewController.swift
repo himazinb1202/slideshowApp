@@ -85,7 +85,7 @@ class ViewController: UIViewController {
                     Susumu1.isEnabled = false
                     Modoru1.isEnabled = false
                     
-                } else if self.timer? != nil{
+                } else if self.timer! != nil{
                     self.timer?.invalidate()
                     self.timer = nil
                     //文字変更
